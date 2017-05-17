@@ -54,6 +54,9 @@ horizontally, so all heights match*/
 }
 /*below is styling for nav bar*/
 
+nav#topnav {
+    text-align: -webkit-center;
+}
 .navbar {
     background-color: black;
     border-color: black;
@@ -64,6 +67,10 @@ horizontally, so all heights match*/
 a {
     text-decoration: underline;
     color: white;
+}
+
+.brand {
+    float: left;
 }
 
 .navbar .navbar-nav > .active > a {
