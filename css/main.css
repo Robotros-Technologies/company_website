@@ -86,4 +86,10 @@ a {
 .navbar .navbar-toggle {
     background-color:#eeeeee;
 }
+footer {
+    text-align: center;
+}
+.blue {
+    color: blue;
+}
 /*IDs below*/
