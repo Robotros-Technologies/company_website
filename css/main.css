@@ -73,6 +73,10 @@ a {
     float: left;
 }
 
+div.container-fluid {
+    background-color: black;
+}
+
 .navbar .navbar-nav > .active > a {
     color: red;
     background-color:transparent;
@@ -92,6 +96,14 @@ a {
 }
 .navbar .navbar-toggle {
     background-color:#eeeeee;
+}
+
+div.col-md-12.text-center {
+    background-color: white;
+}
+
+div.col-md-12 {
+    background-color: white;
 }
 footer {
     text-align: center;
