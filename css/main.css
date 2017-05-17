@@ -1,0 +1,89 @@
+/***************************
+filename: main.css
+
+description: style for na.com
+author: Jonathan Alvarado
+date: 5/10/2017
+***************************/
+
+/** Default Tags **/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border: 1px solid red !important;*/
+}
+
+* {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#carousel-inner {
+    text-align: center;
+}
+#myCarousel {
+    min-height: 200px;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/*below are the DEFAULT display values that should be used
+for H1 headers*/
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    background: #FFF;
+}
+/*This bottom display aligns ALL elements in that row
+horizontally, so all heights match*/
+/*.row {
+    display: flex;
+}*/
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+/*below is styling for nav bar*/
+
+.navbar {
+    background-color: black;
+    border-color: black;
+    color:red;
+    border-radius: none;
+    font-size: xx-large;
+}
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar .navbar-nav > .active > a {
+    color: red;
+    background-color:transparent;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus,
+.navbar .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    color:red;
+}
+.navbar .navbar-toggle {
+    background-color:#eeeeee;
+}
+/*IDs below*/
