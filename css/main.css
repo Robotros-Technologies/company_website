@@ -45,9 +45,12 @@ h1 {
 }
 /*This bottom display aligns ALL elements in that row
 horizontally, so all heights match*/
-/*.row {
+.navbar-header {
     display: flex;
-}*/
+}
+.collapse.navbar-collapse {
+    float: right;
+}
 .navbar-brand {
     margin: 0;
     padding: 0;
@@ -78,7 +81,7 @@ div.container-fluid {
 }
 
 .navbar .navbar-nav > .active > a {
-    color: red;
+    color: blue;
     background-color:transparent;
 }
 
@@ -88,14 +91,17 @@ div.container-fluid {
 .navbar .navbar-nav > .active > a:focus,
 .navbar .navbar-nav > .open >a {
     text-decoration: none;
-    background-color: white;
+    background-color: black;
 }
 
 .navbar .navbar-brand {
     color:red;
 }
 .navbar .navbar-toggle {
-    background-color:#eeeeee;
+    background-color: gray;
+}
+span.icon-bar {
+    background-color: white;
 }
 
 div.col-md-12.text-center {
