@@ -6,7 +6,7 @@ author: Jonathan Alvarado
 date: 5/10/2017
 ***************************/
 
-/** Default Tags **/
+/*------------------ DEFAULT TAGS-------------------*/
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -14,26 +14,16 @@ date: 5/10/2017
     box-sizing: border-box;
     /*border: 1px solid red !important;*/
 }
-
 * {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#carousel-inner {
-    text-align: center;
-}
-#myCarousel {
-    min-height: 200px;
-}
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
 
 /*below are the DEFAULT display values that should be used
 for H1 headers*/
-h1 {
+/*h1 {
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -42,48 +32,45 @@ h1 {
     margin-right: 0;
     font-weight: bold;
     background: #FFF;
+}*/
+
+/*-----------------------OVERALL HTML BODY STYLING---------------*/
+div.container-fluid {
+    background-color: transparent;
 }
-/*This bottom display aligns ALL elements in that row
-horizontally, so all heights match*/
-.navbar-header {
-    display: flex;
-}
-.collapse.navbar-collapse {
-    float: right;
-}
-.navbar-brand {
-    margin: 0;
+
+div.col-md-12.col-lg-12 {
     padding: 0;
 }
-/*below is styling for nav bar*/
 
-nav#topnav {
-    text-align: -webkit-center;
-}
-.navbar {
-    background-color: black;
-    border-color: black;
-    color:red;
-    border-radius: none;
-    font-size: xx-large;
-}
-a {
-    text-decoration: underline;
-    color: white;
-}
 
+/*-------------------------NAVBAR ROW STYLING---------------------*/
 .brand {
     float: left;
 }
 
-div.container-fluid {
+.navbar {
     background-color: black;
+    border-color: black;
+    color:white;
+    border-radius: none;
+    font-size: xx-large;
+}/*color and font sizes for navbar background*/
+
+#navbarCollapse {
+    text-align: -webkit-center;
+}/*This centers all the text in the collapsed hamburger icon menu*/
+
+a {
+    text-decoration: underline;
+    color: white;/*targets all the menu text in 'a' tags*/
 }
 
 .navbar .navbar-nav > .active > a {
     color: blue;
     background-color:transparent;
-}
+}/*targets text with "class='active'" attribute, inside 'a' tags,
+like the 'Menu' text in navbar*/
 
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus,
@@ -92,18 +79,33 @@ div.container-fluid {
 .navbar .navbar-nav > .open >a {
     text-decoration: none;
     background-color: black;
-}
+    color: blue;
+}/*color and style ONLY when mouse is hovering/focusing over menu text*/
 
-.navbar .navbar-brand {
-    color:red;
-}
 .navbar .navbar-toggle {
     background-color: gray;
-}
+}/*default color of the hamburger icon (excluding the 3 lines)*/
+
 span.icon-bar {
     background-color: white;
+}/*default color of the 3 hamburger icon lines*/
+
+
+/*-------------------------MIDDLE/CAROUSEL ROW-----------------------*/
+#carousel-inner {
+    text-align: center;
 }
 
+#myCarousel {
+    min-height: 200px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+/*----------------------------ABOUT SECTION/ROW---------------------*/
 div.col-md-12.text-center {
     background-color: white;
 }
@@ -111,15 +113,15 @@ div.col-md-12.text-center {
 div.col-md-12 {
     background-color: white;
 }
+
+
+/*----------------------------FOOTER SECTION/ROW---------------------*/
 footer {
     text-align: center;
     background-color: black;
 }
 
-div.col-md-12.col-lg-12 {
-    padding: 0;
-}
 .blue {
     color: blue;
 }
-/*IDs below*/
+/*---------------------------IDs below---------------------------*/
