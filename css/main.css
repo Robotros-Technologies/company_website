@@ -45,8 +45,24 @@ div.col-md-12.col-lg-12 {
 
 
 /*-------------------------NAVBAR ROW STYLING---------------------*/
+div.container {
+    display: flex;
+}/*necessary for brand and hamburger icon to be aligned horizontally
+next to each other*/
+
+div.navbar-header {
+    width: 100%;
+}/*combined with top, also necessary, else hamburger icon will not
+align to the right*/
+
+@media (min-width: 770px) {
+    div#navbarCollapse.collapse.navbar-collapse {
+        float: right;
+    }/*moves navbar text to right align for biggest viewports*/
+}
 .brand {
-    float: left;
+    max-width: 20%
+    max-height: 20%;
 }
 
 .navbar {
