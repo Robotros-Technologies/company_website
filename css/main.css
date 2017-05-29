@@ -35,6 +35,12 @@ for H1 headers*/
 }*/
 
 /*-----------------------OVERALL HTML BODY STYLING---------------*/
+@media (min-width: 770px) {
+    .container {
+    margin-right: 25px;
+    margin-left: 25px;
+    }
+}
 div.container-fluid {
     background-color: transparent;
 }
@@ -114,6 +120,7 @@ span.icon-bar {
 
 #myCarousel {
     min-height: 200px;
+    margin-top: 150px;
 }
 
 .carousel-inner > .item > img {
