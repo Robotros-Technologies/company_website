@@ -36,7 +36,7 @@ for H1 headers*/
 
 /*-----------------------OVERALL HTML BODY STYLING---------------*/
 * {
-    font-family: 'Courgette', sans-serif;
+    font-family: 'Special Elite', cursive;
 }
 @media (min-width: 770px) {
     .container {
@@ -49,7 +49,7 @@ div.container-fluid {
 }
 
 div.col-md-12.col-lg-12 {
-    background: #304463;
+    background: #091d3d;
     padding: 0;
 }
 
@@ -76,8 +76,8 @@ align to the right*/
 }
 
 .navbar {
-    background-color: #304463;
-    border-color: #304463;
+    background-color: black;
+    border-color: black;
     color:white;
     border-radius: none;
     font-size: xx-large;
@@ -104,7 +104,7 @@ like the 'Menu' text in navbar*/
 .navbar .navbar-nav > .active > a:focus,
 .navbar .navbar-nav > .open >a {
     text-decoration: none;
-    background-color: #304463;
+    background-color: #091d3d;
     color: blue;
 }/*color and style ONLY when mouse is hovering/focusing over menu text*/
 
@@ -118,6 +118,10 @@ span.icon-bar {
 
 
 /*-------------------------MIDDLE/CAROUSEL ROW-----------------------*/
+div.row {
+    background-color: #091d3d;
+}
+
 #carousel-inner {
     text-align: center;
 }
@@ -131,22 +135,29 @@ span.icon-bar {
     margin: 0 auto;
 }
 
-
+@media (min-width: 770px) {
+    #myCarousel {
+        margin-top: 70px;
+    }
+}
 /*----------------------------ABOUT SECTION/ROW---------------------*/
 div.col-md-12.text-center, div.col-md-12 > p {
-    background-color: #304463;
+    background-color: #091d3d;
+    margin-left: 15px;
+    margin-right: 15px;
+
     color: white;
 }
 
 div.col-md-12, div.col-md-12 > p {
-    background-color: #304463;
+    background-color: #091d3d;
 }
 
 
 /*----------------------------FOOTER SECTION/ROW---------------------*/
 footer {
     text-align: center;
-    background-color: #304463;
+    background-color: #091d3d;
 }
 
 footer > p {
