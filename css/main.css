@@ -36,7 +36,7 @@ for H1 headers*/
 
 /*-----------------------OVERALL HTML BODY STYLING---------------*/
 * {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Julius Sans One', sans-serif;
 }
 @media (min-width: 770px) {
     .container {
