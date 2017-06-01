@@ -53,6 +53,10 @@ div.col-md-12.col-lg-12 {
     padding: 0;
 }
 
+.black {
+    color: black;
+}
+
 
 /*-------------------------NAVBAR ROW STYLING---------------------*/
 div.container {
