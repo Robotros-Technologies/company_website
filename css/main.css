@@ -147,6 +147,27 @@ div.row {
     margin: 0 auto;
 }
 
+.item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-caption {
+    top: 40%;
+    transform: translateY(-40%);
+    bottom: initial;
+    font-size: 25px;
+}
+
+.carousel-caption > h3 {
+    top: 40%;
+    transform: translateY(-40%);
+    bottom: initial;
+    font-size: 35px;
+    font-style: bold;
+}
+
 @media (min-width: 770px) {
     #myCarousel {
         margin-top: 70px;
