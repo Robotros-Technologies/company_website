@@ -35,6 +35,14 @@ for H1 headers*/
 }*/
 
 /*-----------------------OVERALL HTML BODY STYLING---------------*/
+
+.container-fluid, div.row, .col-md-12.col-sm-12.col-lg-12,
+.row, .col-md-12.col-lg-12.col-sm-12 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}/*eliminates white space on sides of html page*/
+
 * {
     font-family: 'Julius Sans One', sans-serif;
 }
@@ -149,7 +157,6 @@ div.col-md-12.text-center, div.col-md-12 > p {
     background-color: #091d3d;
     margin-left: 15px;
     margin-right: 15px;
-
     color: white;
 }
 
