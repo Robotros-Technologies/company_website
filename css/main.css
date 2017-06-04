@@ -52,6 +52,18 @@ for H1 headers*/
     margin-left: 25px;
     }
 }
+
+@media (max-width: 440px) {
+    div.carousel-caption {
+    top: 70%;
+    transform: translateY(-70%);
+    bottom: initial;
+    font-size: 12px;
+    }
+    div.carousel-caption > h3 {
+        font-size: 20px;
+    }
+}
 div.container-fluid {
     background-color: transparent;
 }
@@ -139,9 +151,14 @@ div.row {
 }
 
 #myCarousel {
-    min-height: 200px;
-    margin-top: 150px;
+    margin-top: 70px;
 }
+
+.carousel-indicators > li {
+    margin-bottom: 0px;
+    transform: translateY(110%)
+}/*this moves dot indicators down the Y axis for
+better mobile view*/
 
 .carousel-inner > .item > img {
     margin: 0 auto;
@@ -158,7 +175,8 @@ div.row {
     transform: translateY(-40%);
     bottom: initial;
     font-size: 25px;
-}
+}/*moves carousel captions higher for better
+desktop visibility*/
 
 .carousel-caption > h3 {
     top: 40%;
@@ -166,9 +184,10 @@ div.row {
     bottom: initial;
     font-size: 35px;
     font-style: bold;
-}
+}/*moves carousel H3 captions higher for better
+desktop visibility*/
 
-@media (min-width: 770px) {
+@media (min-width: 440px) {
     #myCarousel {
         margin-top: 70px;
     }
