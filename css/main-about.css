@@ -1,0 +1,234 @@
+/***************************
+filename: main2.css
+
+description: style for na.com
+author: Jonathan Alvarado
+date: 5/10/2017
+***************************/
+
+/*------------------ DEFAULT TAGS-------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border: 1px solid red !important;*/
+}
+* {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*below are the DEFAULT display values that should be used
+for H1 headers*/
+/*h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    background: #FFF;
+}*/
+
+/*-----------------------OVERALL HTML BODY STYLING---------------*/
+
+.container-fluid, div.row, .col-md-12.col-sm-12.col-lg-12,
+.row, .col-md-12.col-lg-12.col-sm-12 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}/*eliminates white space on sides of html page*/
+
+* {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+div.col-md-12.col-sm-12.col-lg-12 > img {
+    min-height: 375px;
+}/*For better mobile viewing*/
+
+@media (min-width: 770px) {
+    .container {
+    margin-right: 25px;
+    margin-left: 25px;
+    }
+}
+
+@media (max-width: 800px) {
+    div.carousel-caption {
+    margin-top: 20px;
+    transform: translateY(-50%);
+    bottom: initial;
+    font-size: 12px;
+    }
+    div.carousel-caption > h3 {
+    transform: translateY(150%);
+    margin-top: 50px;
+    font-size: 20px;
+    }
+    h2 {
+    transform: translateY(50%);
+    margin-top: 50px;
+    font-size: 20px;
+    }/*All of the above is to position elements for better
+    mobile viewing*/
+}
+div.container-fluid {
+    background-color: transparent;
+}
+
+div.col-md-12.col-lg-12 {
+    background: #091d3d;
+    padding: 0;
+}
+
+.black {
+    color: black;
+}
+
+
+/*-------------------------NAVBAR ROW STYLING---------------------*/
+div.container {
+    display: flex;
+}/*necessary for brand and hamburger icon to be aligned horizontally
+next to each other*/
+
+div.navbar-header {
+    width: 100%;
+}/*combined with top, also necessary, else hamburger icon will not
+align to the right*/
+
+@media (min-width: 770px) {
+    div#navbarCollapse.collapse.navbar-collapse {
+        float: right;
+    }/*moves navbar text to right align for biggest viewports*/
+}
+.brand {
+    max-width: 20%
+    max-height: 20%;
+}
+
+.navbar {
+    background-color: black;
+    border-color: black;
+    color:white;
+    border-radius: none;
+    font-size: xx-large;
+}/*color and font sizes for navbar background*/
+
+#navbarCollapse {
+    text-align: -webkit-center;
+}/*This centers all the text in the collapsed hamburger icon menu*/
+
+a {
+    text-decoration: underline;
+    color: white;/*targets all the menu text in 'a' tags*/
+}
+
+.navbar .navbar-nav > .active > a {
+    color: blue;
+    background-color:transparent;
+}/*targets text with "class='active'" attribute, inside 'a' tags,
+like the 'Menu' text in navbar*/
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus,
+.navbar .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #091d3d;
+    color: blue;
+}/*color and style ONLY when mouse is hovering/focusing over menu text*/
+
+.navbar .navbar-toggle {
+    background-color: gray;
+}/*default color of the hamburger icon (excluding the 3 lines)*/
+
+span.icon-bar {
+    background-color: white;
+}/*default color of the 3 hamburger icon lines*/
+
+
+/*-------------------------MIDDLE/CAROUSEL ROW-----------------------*/
+div.row {
+    background-color: #091d3d;
+}
+
+#carousel-inner {
+    text-align: center;
+}
+
+#myCarousel {
+    margin-top: 70px;
+}
+
+.carousel-indicators > li {
+    margin-bottom: 0px;
+    transform: translateY(110%)
+}/*this moves dot indicators down the Y axis for
+better mobile view*/
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-caption {
+    top: 40%;
+    transform: translateY(-40%);
+    bottom: initial;
+    font-size: 25px;
+}/*moves carousel captions higher for better
+desktop visibility*/
+
+.carousel-caption > h3 {
+    top: 40%;
+    transform: translateY(-40%);
+    bottom: initial;
+    font-size: 35px;
+    font-style: bold;
+}/*moves carousel H3 captions higher for better
+desktop visibility*/
+
+@media (min-width: 440px) {
+    #myCarousel {
+        margin-top: 70px;
+    }
+}
+/*----------------------------ABOUT SECTION/ROW---------------------*/
+div.col-md-12.text-center, div.col-md-12 > p {
+    background-color: #091d3d;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+div.col-md-12, div.col-md-12 > p {
+    background-color: #091d3d;
+}
+
+
+/*----------------------------FOOTER SECTION/ROW---------------------*/
+footer {
+    text-align: center;
+    background-color: #091d3d;
+}
+
+footer > p {
+    color: white;
+}
+
+.blue {
+    color: blue;
+}
+/*---------------------------IDs below---------------------------*/
