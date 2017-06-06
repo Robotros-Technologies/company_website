@@ -35,6 +35,9 @@ for H1 headers*/
 }*/
 
 /*-----------------------OVERALL HTML BODY STYLING---------------*/
+h1, h2, h3, p, footer, section {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}/*overall text outline*/
 
 div.row{
     width: 100%;
@@ -82,7 +85,7 @@ div.navbar-header {
 }/*combined with top, also necessary, else hamburger icon will not
 align to the right*/
 
-@media (min-width: 770px) {
+@media (min-width: 650px) {
     div#navbarCollapse.collapse.navbar-collapse {
         float: right;
     }/*moves navbar text to right align for biggest viewports*/
@@ -143,8 +146,8 @@ div.row {
     text-align: center;
 }
 
-#myCarousel {
-    margin-top: 70px;
+div#myCarousel {
+    margin-top: 40px;
 }
 
 .carousel-indicators > li {
