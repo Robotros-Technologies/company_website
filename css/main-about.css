@@ -53,14 +53,8 @@ div.col-md-12.col-sm-12.col-lg-12 > img {
     min-height: 375px;
 }/*For better mobile viewing*/
 
-@media (min-width: 770px) {
-    .container {
-    margin-right: 25px;
-    margin-left: 25px;
-    }
-}
 
-@media (max-width: 800px) {
+@media (max-width: 440px) {
     div.carousel-caption {
     margin-top: 20px;
     transform: translateY(-50%);
@@ -84,7 +78,7 @@ div.container-fluid {
 }
 
 div.col-md-12.col-lg-12 {
-    background: #091d3d;
+    background: black;
     padding: 0;
 }
 
@@ -158,7 +152,7 @@ span.icon-bar {
 
 /*-------------------------MIDDLE/CAROUSEL ROW-----------------------*/
 div.row {
-    background-color: #091d3d;
+    background-color: black;
 }
 
 #carousel-inner {
