@@ -36,21 +36,14 @@ for H1 headers*/
 
 /*-----------------------OVERALL HTML BODY STYLING---------------*/
 
-.container-fluid, div.row, .col-md-12.col-sm-12.col-lg-12,
-.row, .col-md-12.col-lg-12.col-sm-12 {
+div.row{
     width: 100%;
     padding: 0;
     margin: 0;
-}/*eliminates white space on sides of html page*/
+}/*makes white space appear on sides of entire html*/
 
 * {
     font-family: 'Julius Sans One', sans-serif;
-}
-@media (min-width: 770px) {
-    .container {
-    margin-right: 25px;
-    margin-left: 25px;
-    }
 }
 
 @media (max-width: 440px) {
@@ -193,10 +186,14 @@ desktop visibility*/
     }
 }
 /*----------------------------ABOUT SECTION/ROW---------------------*/
-div.col-md-12.text-center, div.col-md-12 > p {
+div.col-md-12 > p {
     background-color: #091d3d;
     margin-left: 15px;
     margin-right: 15px;
+    color: white;
+}
+
+div.col-md-12.text-center {
     color: white;
 }
 
@@ -208,11 +205,15 @@ div.col-md-12, div.col-md-12 > p {
 /*----------------------------FOOTER SECTION/ROW---------------------*/
 footer {
     text-align: center;
-    background-color: #091d3d;
+    background-color: black;
 }
 
 footer > p, .col-md-6 {
     color: white;
+}
+
+footer > div {
+    margin-top: 15px;
 }
 
 .blue {
