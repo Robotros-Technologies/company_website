@@ -35,6 +35,12 @@ for H1 headers*/
 }*/
 
 /*-----------------------OVERALL HTML BODY STYLING---------------*/
+@media (max-width: 800px) {
+    div.col-md-12.col-sm-12.col-lg-12 {
+        margin-top: 200px;
+    }
+}
+
 h1, h2, h3, p, .col-md-6, footer {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
