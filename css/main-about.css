@@ -151,8 +151,7 @@ span.icon-bar {
 
 button.navbar-toggle {
     transform: translateX(50%);
-}/*moves hamburger icon more to right*
-
+}/*moves hamburger icon more to right*/
 
 /*-------------------------MIDDLE/CAROUSEL ROW-----------------------*/
 div.row {
@@ -164,7 +163,7 @@ div.row {
 }
 
 div#myCarousel {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .carousel-indicators > li {
@@ -200,9 +199,9 @@ desktop visibility*/
 }/*moves carousel H3 captions higher for better
 desktop visibility*/
 
-@media (min-width: 440px) {
-    #myCarousel {
-        margin-top: 70px;
+@media (max-width: 440px) {
+    div#myCarousel {
+        margin-top: 150px;
     }
 }
 /*----------------------------ABOUT SECTION/ROW---------------------*/
