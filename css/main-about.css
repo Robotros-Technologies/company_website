@@ -219,9 +219,14 @@ div.col-md-12, div.col-md-12 > p {
 
 
 /*----------------------------FOOTER SECTION/ROW---------------------*/
-footer {
+footer, .col-md-12.col-sm-12 {
     text-align: center;
     background-color: black;
+}
+
+.col-md-12.col-sm-12 {
+        background-color: black;
+        margin-top: 0px;
 }
 
 footer > p, .col-md-6 {
