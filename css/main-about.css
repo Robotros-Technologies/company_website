@@ -54,7 +54,7 @@ div.col-md-12.col-sm-12.col-lg-12 > img {
 }/*For better mobile viewing*/
 
 
-@media (max-width: 440px) {
+@media (max-width: 920px) {
     div.carousel-caption {
     margin-top: 20px;
     transform: translateY(-50%);
@@ -148,6 +148,10 @@ like the 'Menu' text in navbar*/
 span.icon-bar {
     background-color: white;
 }/*default color of the 3 hamburger icon lines*/
+
+button.navbar-toggle {
+    transform: translateX(50%);
+}/*moves hamburger icon more to right*
 
 
 /*-------------------------MIDDLE/CAROUSEL ROW-----------------------*/
