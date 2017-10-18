@@ -38,11 +38,15 @@ for H1 headers*/
 
 
 * {
-    font-family: 'Julius Sans One', sans-serif;
+   
 }
 body{
     background-color: black;
     color:white;
+}
+
+h1,h2,h3{
+     font-family: 'Julius Sans One', sans-serif;
 }
 
 @media (max-width: 920px) {
@@ -103,6 +107,7 @@ align to the right*/
     color:white;
     border-radius: none;
     font-size: xx-large;
+     font-family: 'Julius Sans One', sans-serif;
 }/*color and font sizes for navbar background*/
 
 #navbarCollapse {
