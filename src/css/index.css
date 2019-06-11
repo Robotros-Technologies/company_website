@@ -1,0 +1,71 @@
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+body {
+  padding-top: 56px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  padding-bottom:25px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'East Sea Dokdo', cursive;
+}
+
+h1{
+font-size: 5em;
+}
+
+h2{
+font-size: 3em;
+padding-top: 0;
+}
+
+.feat {
+  max-height: 500px;
+}
+
+.infor{
+  margin-bottom: -150px;
+}
+
+.merch{
+  max-height: 500px;
+  margin: 10px;
+}
+
+.foot{
+  padding:0px;
+}
+.center-align {
+  margin: 0 auto;
+}
+
+.img-charity{
+  max-height: 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #CCCCCC;
+}

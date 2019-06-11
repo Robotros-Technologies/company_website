@@ -1,0 +1,48 @@
+{
+  "homepage": "https://www.robotros.tech",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robotros-Technologies/company_website"
+  },
+  "author": {
+    "name": "Aron Roberts",
+    "email": "a.roberts@robotros.tech",
+    "url": "https://www.aronroberts.com/",
+  },
+  "contributros": {
+    "Jon Alvarado <j.alvarado@robotros.tech> (https://github.com/TheBlurrr)"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "acorn": "^6.1.1",
+    "ajv": "^6.10.0",
+    "axios": "^0.19.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.10.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "fstream": "^1.0.12",
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "papaparse": "^4.6.3",
+    "prop-types": "^15.7.2",
+    "qs": "^6.7.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^4.3.1",
+    "tar": "^4.4.10"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.4",
+    "react-social-icons": "^4.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
