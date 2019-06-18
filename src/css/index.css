@@ -63,8 +63,12 @@ padding-top: 0;
   margin: 0 auto;
 }
 
-.img-charity{
-  max-height: 100px;
+.img-service{
+  max-width: 300px;
+}
+
+.img-head{
+  max-width: 1080px;
 }
 
 .navbar-light .navbar-nav .nav-link{

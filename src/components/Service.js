@@ -13,11 +13,10 @@ class Service extends Component {
   render() {
     return (
       <div>
-        <h2>{this.props.C.name}</h2>
+        <h2 className='center-align'>{this.props.C.name}</h2>
         <div className='row'>
           <div className='col-md-4 offset-md-2'>
-            <img className='img-fluid'
-              width='300px'
+            <img className='img-fluid img-service'
               src={this.props.C.image}
               alt={this.props.C.name}>
             </img>
