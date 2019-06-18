@@ -1,5 +1,9 @@
 import React from 'react';
 import Support from '../img/mission.png';
+import Business from '../img/business.png';
+import Hardware from '../img/hardware.png';
+import Social from '../img/social.jpg';
+import Office from '../img/office.jpg';
 import Service from '../components/Service';
 
 
@@ -18,22 +22,22 @@ class Home extends React.Component {
       {
         'name': 'Technology Consulting',
         'details': 'We will review your the current tools your business is using alongside each business process. We will then work with you to identify any struggles or gaps in the process and help identify how you can better utilize you current tools or leverage on new technologies to improve the effectiveness of you business.',
-        'image': '#',
+        'image': Business,
       },
       {
         'name': 'Managed Infrastructure Support',
         'details': 'We can provide managed support for your IT enviroment. Using a combination of remote and on-site resources we will assit you in managing a complete IT Infrastructure from desktop support to basic network needs. This allows small business to focus on the business and minimize technical staffing needs.',
-        'image': '#',
+        'image': Hardware,
       },
       {
         'name': 'Website Design and Social Branding',
         'details': 'Small Business often times neglect the importance of an online presence. We offer SEO optimized ADA compliant Web-design as well as the ability to create and establish an intial social media presence that a business can grow and leverage in the future.',
-        'image': '#',
+        'image': Social,
       },
       {
         'name': 'IT Project Managment and consultation',
         'details': 'Companies often times set ambitious project goals but do not know where to start. We can assit you with your IT project by managing it for you or breaking it down into smaller projects that a company can manage internal step by step.',
-        'image': '#',
+        'image': Office,
       },
     ],
   }

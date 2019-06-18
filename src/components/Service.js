@@ -14,13 +14,18 @@ class Service extends Component {
     return (
       <div>
         <h2>{this.props.C.name}</h2>
-        <img className='img-fluid'
-          width='300px'
-          src={this.props.C.image}
-          alt={this.props.C.name}>
-        </img>
-        <br></br><br></br>
-        <p>{this.props.C.details}</p>
+        <div className='row'>
+          <div className='col-md-4 offset-md-2'>
+            <img className='img-fluid'
+              width='300px'
+              src={this.props.C.image}
+              alt={this.props.C.name}>
+            </img>
+          </div>
+          <div className='col-md-4'>
+            <p>{this.props.C.details}</p>
+          </div>
+        </div>
         <hr></hr>
       </div>
     );

@@ -67,6 +67,6 @@ padding-top: 0;
   max-height: 100px;
 }
 
-.navbar-dark .navbar-nav .nav-link{
-  color: #CCCCCC;
+.navbar-light .navbar-nav .nav-link{
+  color: #555555;
 }
