@@ -12,9 +12,8 @@ import {faCopyright, faFlagUsa} from '@fortawesome/free-solid-svg-icons';
 import Head from './components/Head';
 import Foot from './components/Foot';
 import Home from './components/Home';
+import Services from './components/Services';
 import './css/app.css';
-
-
 
 // font awesome icon library
 library.add(faCopyright, faFlagUsa);
@@ -30,6 +29,11 @@ class RoboTechApp extends React.Component {
         'path': '/',
         'label': 'Home',
         'component': Home,
+      },
+      {
+        'path': '/Service',
+        'label': 'Services',
+        'component': Services,
       },
     ],
     social: [
