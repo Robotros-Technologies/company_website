@@ -21,7 +21,7 @@ class Home extends React.Component {
       },
       {
         'name': 'Technology Consulting',
-        'details': 'We will review your the current tools your business is using alongside each business process. We will then work with you to identify any struggles or gaps in the process and help identify how you can better utilize you current tools or leverage on new technologies to improve the effectiveness of you business.',
+        'details': 'We will review the current tools your business is using alongside each business process. We will then work with you to identify any struggles or gaps in the process and help identify how you can better utilize you current tools or leverage on new technologies to improve the effectiveness of you business.',
         'image': Business,
       },
       {
