@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {SocialIcon} from 'react-social-icons';
+import Partner from '../img/MicrosoftPartner.png';
+import Sherweb from '../img/sherweb.png';
 
 /**
 * React Component to Render footer for WMPQ Gaming
@@ -17,7 +19,7 @@ class Foot extends Component {
       <footer className='py-5 bg-light'>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-6'>
+            <div className='col-md-4'>
               {this.props.social.map((S) =>
                 <SocialIcon
                   key={S.url}
@@ -25,11 +27,23 @@ class Foot extends Component {
                 />
               )}
             </div>
-            <div className='col-md-6'>
+            <div className='col-md-4'>
+              <img src={Partner} alt='Microsoft Partner' height='80px'></img>
+            </div>
+            <div className='col-md-4'>
+              <img src={Sherweb} alt='Authorized by Sherweb' height='80px'></img>
+            </div>
+
+
+          </div>
+          <hr></hr>
+          <div className='row'>
+            <div id='copyright' className='col-md-12'>
               <p className='m-0 text-center text-black'>
-                 Copyright <FontAwesomeIcon icon='copyright' /> 2019 WMPQ Gaming
+                Copyright <FontAwesomeIcon icon='copyright' /> 2019 Robotros Technologies
               </p>
             </div>
+
           </div>
         </div>
       </footer>
