@@ -17,7 +17,7 @@ class Home extends React.Component {
     let support=Support;
     return (
       <div className='Home container'>
-        <img className='img-head' src={support} alt='laptops'></img>
+        <img className='img-head img-fluid' src={support} alt='laptops'></img>
         <h1> About Us</h1>
         <hr></hr>
         <p>We are leaders in the Information Technology space with more than 10 years of experience helping users in the workplace. Specializing in the needs of small to medium size businesses, we have been helping our users solve issues and overcome unique challenges by aligning their technological strategies. We have experience in handling everything from basic desktop support issues all the way through extensive ERP rollouts and data migrations.</p>

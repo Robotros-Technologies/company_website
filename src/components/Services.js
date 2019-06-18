@@ -49,7 +49,7 @@ class Home extends React.Component {
     let support=Support;
     return (
       <div className='Services container'>
-        <img className='img-head' src={support} alt='code'></img>
+        <img className='img-head img-fluid' src={support} alt='code'></img>
         <h1>Our Services</h1>
         <hr></hr>
         <section>
