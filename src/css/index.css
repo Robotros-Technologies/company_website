@@ -35,12 +35,12 @@ h1, h2, h3, h4 {
 }
 
 h1{
-font-size: 3em;
+  font-size: 3em;
 }
 
 h2{
-font-size: 2em;
-padding-top: 0;
+  font-size: 2em;
+  padding-top: 0;
 }
 
 .feat {
@@ -68,7 +68,7 @@ padding-top: 0;
 }
 
 .img-head{
-  max-width: 1080px;
+  /*max-width: 1080px;*/
 }
 
 .navbar-light .navbar-nav .nav-link{
