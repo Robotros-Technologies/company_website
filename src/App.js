@@ -30,7 +30,7 @@ library.add(faCopyright, faFlagUsa);
 class RoboTechApp extends React.Component {
   state = {
     company: 'Robotros Technologies',
-    site: 'Robotros Technologies | IT Support and Consulting',
+    site: '',
     Nav: [
       {
         'path': '/',

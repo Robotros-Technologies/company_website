@@ -74,3 +74,7 @@ h2{
 .navbar-light .navbar-nav .nav-link{
   color: #555555;
 }
+
+.logo {
+  width: 300px;
+}
