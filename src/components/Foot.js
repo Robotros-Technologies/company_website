@@ -10,7 +10,7 @@ import Partner from '../img/MicrosoftPartner.png';
 import Sherweb from '../img/sherweb.png';
 
 /**
-* React Component to Render footer for WMPQ Gaming
+* React Component to Render footer
 * @author [Aron Roberts](https://github.com/robotros)
 */
 class Foot extends Component {
@@ -35,7 +35,10 @@ class Foot extends Component {
               <img src={Partner} alt='Microsoft Partner' height='80px'></img>
             </div>
             <div className='col-md-4'>
-              <img src={Sherweb} alt='Authorized by Sherweb' height='80px'></img>
+              <img src={Sherweb}
+                alt='Authorized by Sherweb'
+                height='80px'>
+              </img>
             </div>
 
 
@@ -58,6 +61,8 @@ class Foot extends Component {
 
 Foot.propTypes = {
   social: PropTypes.array.isRequired,
+  company: PropTypes.string.isRequired,
 };
+
 
 export default Foot;
