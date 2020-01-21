@@ -1,3 +1,7 @@
+/* eslint no-console: ["error", { allow: ["warn", "error"] }] */
+/* eslint no-invalid-this: "warn" */
+/* eslint max-len: "warn" */
+
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -40,7 +44,8 @@ class Foot extends Component {
           <div className='row'>
             <div id='copyright' className='col-md-12'>
               <p className='m-0 text-center text-black'>
-                Copyright <FontAwesomeIcon icon='copyright' /> 2019 Robotros Technologies
+                Copyright <FontAwesomeIcon icon='copyright' />
+                {new Date().getFullYear()} {this.props.company}
               </p>
             </div>
 
